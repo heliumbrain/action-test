@@ -22,7 +22,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Starlify Action
-        uses: entiros/starlify-action@v2
+        uses: entiros/starlify-action@v3
         with:
           api_key: "232323"
           workspace_id: "2323"
