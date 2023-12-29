@@ -24,7 +24,7 @@ jobs:
       - name: Starlify Action
         uses: entiros/starlify-action@v3
         with:
-          api_key: "232323"
-          workspace_id: "2323"
+          api_key: ${{ secrets.STARLIFY_API_KEY }}
+          workspace_id: ${{ secrets.STARLIFY_WORKSPACE_ID }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
     
